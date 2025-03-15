@@ -1,0 +1,22 @@
+﻿<Page x:Class="_1DE.Views.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_1DE.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Панель администратора">
+
+    <Grid>
+        <Button x:Name="backBT" Content="Назад" Width="60" Height="20" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Click="backBT_Click"/>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Администратор" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="ordersBT" Content="Заказы" Margin="10" Width="80" Click="ordersBT_Click"/>
+                <Button x:Name="productsBT" Content="Товары" Margin="10" Width="80" Click="productsBT_Click"/>
+            </StackPanel>
+            <Frame x:Name="contentFR" NavigationUIVisibility="Hidden"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C346F5.jpg" />
+    <None Remove="D325D4.jpg" />
+    <None Remove="F256G6.jpg" />
+    <None Remove="F325D4.jpg" />
+    <None Remove="G432G6.jpg" />
+    <None Remove="G843H5.jpg" />
+    <None Remove="H542F5.jpg" />
+    <None Remove="icon.ico" />
+    <None Remove="J532V5.jpg" />
+    <None Remove="logo.png" />
+    <None Remove="S432T5.jpg" />
+    <None Remove="А112Т4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="C346F5.jpg" />
+    <Resource Include="D325D4.jpg" />
+    <Resource Include="F256G6.jpg" />
+    <Resource Include="F325D4.jpg" />
+    <Resource Include="G432G6.jpg" />
+    <Resource Include="G843H5.jpg" />
+    <Resource Include="H542F5.jpg" />
+    <Resource Include="icon.ico" />
+    <Resource Include="J532V5.jpg" />
+    <Resource Include="logo.png" />
+    <Resource Include="S432T5.jpg" />
+    <Resource Include="А112Т4.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,116 @@
+﻿<Page x:Class="_1DE.Views.EditProductPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_1DE.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="800"
+      Title="EditProductPage">
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Button x:Name="closeBT" Content="Закрыть" Height="25" Click="closeBT_Click" Margin="0,0,10,0"/>
+                <TextBlock Text="Изменение данных о товаре" FontSize="20" FontWeight="Bold" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="Артикул:"/>
+                        <TextBox x:Name="articleTB" Text="{Binding Article}" ToolTip="Введите артикул товара"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Orientation="Vertical">
+                        <TextBlock Text="Название:"/>
+                        <TextBox x:Name="nameTB" Text="{Binding Name}" ToolTip="Введите название товара"/>
+                    </StackPanel>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="Описание:"/>
+                        <TextBox x:Name="descriptionTB" Text="{Binding Description}" ToolTip="Введите описание товара"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Orientation="Vertical">
+                        <TextBlock Text="Категория:"/>
+                        <ComboBox x:Name="categoriesCB" SelectedItem="{Binding IdCategoryNavigation.Name}" ToolTip="Выберите категорию товара"/>
+                    </StackPanel>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="Фото (имя файла):"/>
+                        <TextBox x:Name="photoTB" Text="{Binding Photo}" ToolTip="Введите имя файла изображения"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Orientation="Vertical">
+                        <TextBlock Text="Производитель:"/>
+                        <ComboBox x:Name="manufacturersCB" Text="{Binding IdManufacturerNavigation.Name}" ToolTip="Выберите производителя"/>
+                    </StackPanel>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="Поставщик:"/>
+                        <ComboBox x:Name="suppliersCB" Text="{Binding IdSupplierNavigation.Name}" ToolTip="Выберите поставщика"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Orientation="Vertical">
+                        <TextBlock Text="Цена:"/>
+                        <TextBox x:Name="costTB" Text="{Binding Cost}" PreviewTextInput="textBoxes_PreviewTextInput" ToolTip="Введите цену товара"/>
+                    </StackPanel>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="Текущая скидка:"/>
+                        <TextBox x:Name="discountTB" Text="{Binding Discount}" PreviewTextInput="textBoxes_PreviewTextInput" ToolTip="Введите скидку в процентах"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Orientation="Vertical" Margin="5">
+                        <TextBlock Text="Количество на складе:"/>
+                        <TextBox x:Name="quantityTB" Text="{Binding Quantity}" PreviewTextInput="textBoxes_PreviewTextInput" ToolTip="Введите количество товара на складе"/>
+                    </StackPanel>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="Единица измерения:"/>
+                        <TextBox x:Name="unitTB" Text="{Binding Unit}" ToolTip="Введите единицу измерения (например, шт, кг)"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Orientation="Vertical" Margin="5">
+                        <TextBlock Text="Макс. сумма скидки:"/>
+                        <TextBox x:Name="maxDiscountTB" Text="{Binding MaxDiscount}" PreviewTextInput="textBoxes_PreviewTextInput" ToolTip="Введите максимальную сумму скидки"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Button x:Name="cancelBT" Content="Отмена" Width="100" Margin="5" Click="cancelBT_Click"/>
+                <Button x:Name="saveBT" Content="Сохранить" Width="100" Margin="5" Click="saveBT_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

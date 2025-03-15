@@ -1,0 +1,86 @@
+﻿<Page x:Class="_1DE.Views.EditOrderPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_1DE.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="800"
+      Title="EditOrderPage">
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="closeBT" Content="Закрыть" Height="20" Click="closeBT_Click" Margin="10"/>
+                <TextBlock Text="Изменение заказа" FontSize="20" FontWeight="Bold" Margin="250,0"/>
+            </StackPanel>
+            <Grid Margin="0,0,0,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- ID Заказа (только для чтения) -->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="ID Заказа:" Margin="0,20,0,0"/>
+                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding OrderId}" 
+                         IsReadOnly="True" Margin="5,20,5,5"/>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="2">
+                    <!-- Дата заказа -->
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Дата заказа:" Margin="0,5"/>
+                    <DatePicker x:Name="orderDateDP" Width="200" SelectedDate="{Binding OrderDate}" 
+                                Margin="5" DisplayDateStart="01.01.2018"/>
+
+                    <!-- Дата доставки -->
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Дата доставки:" Margin="0,5"/>
+                    <DatePicker x:Name="deliveryDateDP" Width="200" SelectedDate="{Binding OrderDeliveryDate}" 
+                                Margin="5" DisplayDateStart="01.01.2018"/>
+                </StackPanel>
+
+
+                <!-- Пункт выдачи -->
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Пункт выдачи:" Margin="0,5"/>
+                <ComboBox x:Name="pickupPointsCB" Grid.Row="3" Grid.Column="1" Margin="5" SelectedItem="{Binding OrderPickupPointId}"/>
+
+                <!-- Пользователь -->
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Пользователь:" Margin="0,5"/>
+                <ComboBox x:Name="usersCB" Grid.Row="4" Grid.Column="1" Margin="5" SelectedItem="{Binding OrderUserId}"/>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.ColumnSpan="2"> 
+                    <!-- Код заказа -->
+                    <TextBlock Grid.Row="5" Grid.Column="0" Text="Код заказа:" Margin="0,5"/>
+                    <TextBox x:Name="codeTB" Width="200" Text="{Binding OrderCode}" Margin="5"/>
+
+                    <!-- Статус заказа -->
+                    <TextBlock Grid.Row="6" Grid.Column="0" Text="Статус заказа:" Margin="0,5"/>
+                    <ComboBox x:Name="statusesCB" Width="200" Margin="5" SelectedItem="{Binding OrderStatus}"/>
+                </StackPanel>
+                
+            </Grid>
+
+            <!-- Итоговая информация -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,5">
+                <TextBlock Text="Все в наличии:" FontWeight="Bold" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding IsAllInStock}" Margin="0,0,15,0"/>
+                <TextBlock Text="Общая сумма заказа:" FontWeight="Bold" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding TotalOrderSum, StringFormat={}{0:N2} Р}" Margin="0,0,15,0"/>
+                <TextBlock Text="Общая скидка:" FontWeight="Bold" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding TotalOrderDiscount, StringFormat={}{0}%}" />
+            </StackPanel>
+
+            <!-- Кнопки управления -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="canselBT" Content="Отмена" Width="100" Margin="5" Click="canselBT_Click"/>
+                <Button x:Name="saveBT" Content="Сохранить" Width="100" Margin="5" Click="saveBT_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

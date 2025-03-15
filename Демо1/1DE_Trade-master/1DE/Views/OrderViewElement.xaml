@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="_1DE.Views.OrderViewElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_1DE.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="180" d:DesignWidth="730">
+    <Grid Width="730">
+        <Border BorderBrush="#FF498C51" BorderThickness="2" Margin="5" Padding="1">
+            <StackPanel Orientation="Vertical">
+                <StackPanel.Resources>
+                    <Style TargetType="StackPanel">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsAllInStock}" Value="True">
+                                <Setter Property="Background" Value="#7F20B2AA"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsAllInStock}" Value="False">
+                                <Setter Property="Background" Value="#7FFF8C00"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Resources>
+                <StackPanel Orientation="Horizontal" Style="{x:Null}">
+                    <StackPanel Orientation="Vertical" Margin="10" Style="{x:Null}">
+                             <!-- Заголовок заказа -->
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                            <TextBlock Text="№ " Opacity="0.5"/>
+                            <TextBlock Text="{Binding OrderId}" Opacity="0.5"/>
+                            <TextBlock Text="Дата заказа: " FontWeight="Bold" Margin="10,0,0,0"/>
+                            <TextBlock Text="{Binding OrderDate, StringFormat={}{0:dd.MM.yyyy}}" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                            <TextBlock Text="Дата доставки: " FontWeight="Bold" Margin="0,0,0,0"/>
+                            <TextBlock Text="{Binding OrderDeliveryDate, StringFormat={}{0:dd.MM.yyyy}}" />
+                        </StackPanel>
+                        <TextBlock Text="Клиент: " FontWeight="Bold" Margin="0,10,0,0"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,5,0,10">
+                            <TextBlock Text="{Binding OrderUser.UserSurname}"/>
+                            <TextBlock Text=" "/>
+                            <TextBlock Text="{Binding OrderUser.UserName}"/>
+                            <TextBlock Text=" "/>
+                            <TextBlock Text="{Binding OrderUser.UserPatronymic}"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="10,0,0,0" Style="{x:Null}">
+                        <!-- Состав заказа -->
+                        <TextBlock Text="Состав заказа:" Margin="0,0,0,2" />
+                        <ItemsControl ItemsSource="{Binding Orderproducts}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Vertical">
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="{Binding ProductArticleNumberNavigation.ProductName}" TextWrapping="Wrap" FontWeight="Bold"/>
+                                            <TextBlock Text="| Кол-во: " Margin="10,0,0,0" />
+                                            <TextBlock Text="{Binding ProductQuantity}" />
+                                            <TextBlock Text=" | Цена: " Margin="10,0,0,0" />
+                                            <TextBlock Text="{Binding ProductArticleNumberNavigation.ProductCost, StringFormat={}{0:N2} Р}" />
+                                            <TextBlock Text=" | Скидка: " Margin="10,0,0,0" />
+                                            <TextBlock Text="{Binding ProductArticleNumberNavigation.ProductCurrentDiscount, StringFormat={}{0}%}" />
+                                        </StackPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,2,0,02" Style="{x:Null}">
+                    <TextBlock Text="Общая сумма: " FontWeight="Bold"/>
+                    <TextBlock Text="{Binding TotalOrderSum, StringFormat={}{0:N2} Руб}" />
+                    <TextBlock Text=" | Общий размер скидки: " FontWeight="Bold" Margin="10,0,0,0" />
+                    <TextBlock Text="{Binding TotalOrderDiscount, StringFormat={}{0}%}" />
+                </StackPanel>
+            </StackPanel>
+            
+        </Border>
+    </Grid>
+</UserControl>

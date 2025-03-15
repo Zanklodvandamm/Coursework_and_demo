@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Visual Studio Projects\\1DE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\adminproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\adminproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\editproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\editproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\editproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\editproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\editorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\editorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\editorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\editorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\adminproducts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\adminproducts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\adminorders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\adminorders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\orderviewelement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\orderviewelement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\adminorders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\adminorders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\userpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\userpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|a:\\visual studio projects\\1de\\1de\\views\\managerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901A2F6-A676-477D-9931-DE72385DDEC1}|1DE\\1DE.csproj|solutionrelative:1de\\views\\managerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditProductPage.xaml.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\EditProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "1DE\\Views\\EditProductPage.xaml.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\EditProductPage.xaml.cs",
+              "RelativeToolTip": "1DE\\Views\\EditProductPage.xaml.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAzwHEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:52:48.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "1DE\\Views\\AdminPage.xaml",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminPage.xaml",
+              "RelativeToolTip": "1DE\\Views\\AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T10:57:21.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminProducts.xaml.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminProducts.xaml.cs",
+              "RelativeDocumentMoniker": "1DE\\Views\\AdminProducts.xaml.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminProducts.xaml.cs",
+              "RelativeToolTip": "1DE\\Views\\AdminProducts.xaml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAhwFIAAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:44:45.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManagerPage.xaml.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\ManagerPage.xaml.cs",
+              "RelativeDocumentMoniker": "1DE\\Views\\ManagerPage.xaml.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\ManagerPage.xaml.cs",
+              "RelativeToolTip": "1DE\\Views\\ManagerPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:13:07.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditOrderPage.xaml.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\EditOrderPage.xaml.cs",
+              "RelativeDocumentMoniker": "1DE\\Views\\EditOrderPage.xaml.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\EditOrderPage.xaml.cs",
+              "RelativeToolTip": "1DE\\Views\\EditOrderPage.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAkwGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:17:16.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditOrderPage.xaml",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\EditOrderPage.xaml",
+              "RelativeDocumentMoniker": "1DE\\Views\\EditOrderPage.xaml",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\EditOrderPage.xaml",
+              "RelativeToolTip": "1DE\\Views\\EditOrderPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-09T08:17:45.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminProducts.xaml",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminProducts.xaml",
+              "RelativeDocumentMoniker": "1DE\\Views\\AdminProducts.xaml",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminProducts.xaml*",
+              "RelativeToolTip": "1DE\\Views\\AdminProducts.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T04:44:36.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditProductPage.xaml",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\EditProductPage.xaml",
+              "RelativeDocumentMoniker": "1DE\\Views\\EditProductPage.xaml",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\EditProductPage.xaml",
+              "RelativeToolTip": "1DE\\Views\\EditProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T04:45:49.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "1DE\\Models\\Product.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Models\\Product.cs",
+              "RelativeToolTip": "1DE\\Models\\Product.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:46:06.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminOrders.xaml.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminOrders.xaml.cs",
+              "RelativeDocumentMoniker": "1DE\\Views\\AdminOrders.xaml.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminOrders.xaml.cs",
+              "RelativeToolTip": "1DE\\Views\\AdminOrders.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:56:17.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "1DE\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "1DE\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:25:36.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminOrders.xaml",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminOrders.xaml",
+              "RelativeDocumentMoniker": "1DE\\Views\\AdminOrders.xaml",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\AdminOrders.xaml",
+              "RelativeToolTip": "1DE\\Views\\AdminOrders.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T08:14:48.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderViewElement.xaml",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\OrderViewElement.xaml",
+              "RelativeDocumentMoniker": "1DE\\Views\\OrderViewElement.xaml",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\OrderViewElement.xaml",
+              "RelativeToolTip": "1DE\\Views\\OrderViewElement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T08:53:42.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\App.xaml",
+              "RelativeDocumentMoniker": "1DE\\App.xaml",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\App.xaml",
+              "RelativeToolTip": "1DE\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T10:39:18.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "1DE\\Views\\LoginPage.xaml",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "1DE\\Views\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T10:49:19.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "1DE\\Models\\Order.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Models\\Order.cs",
+              "RelativeToolTip": "1DE\\Models\\Order.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:27:42.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserPage.xaml.cs",
+              "DocumentMoniker": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\UserPage.xaml.cs",
+              "RelativeDocumentMoniker": "1DE\\Views\\UserPage.xaml.cs",
+              "ToolTip": "A:\\Visual Studio Projects\\1DE\\1DE\\Views\\UserPage.xaml.cs",
+              "RelativeToolTip": "1DE\\Views\\UserPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:13:14.986Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
